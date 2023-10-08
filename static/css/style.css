@@ -1,0 +1,22 @@
+#logo {
+    font-family: 'Kablammo', cursive;
+    color: #FF9D2E;
+    font-size: xx-large;
+}
+
+.nav-link {
+    font-family: 'Chewy', cursive;
+    color: #FF9D2E;
+}
+
+nav {
+    background-color: #13245D;
+}
+
+.navbar-toggler {
+    color: #FF9D2E;
+}
+
+.nav-toggler-icon {
+    color: #FF9D2E;
+}
