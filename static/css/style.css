@@ -8,13 +8,18 @@
 
 }
 
+#logo:hover {
+    transform: scale(1.04);
+}
+
 .nav-link {
     font-family: 'Chewy', cursive;
     color: #FF9D2E;
+    font-size: large;
 }
 
 .nav-link:hover {
-    color: #fafafa;
+    color: rgb(255, 255, 139);
 }
 
 nav {
@@ -41,7 +46,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: fafafa;
+    color: rgb(255, 255, 139);
 }
 
 /* MAIN BODY */

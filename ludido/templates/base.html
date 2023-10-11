@@ -13,10 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Kablammo&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" sizes="32×32" href="/assets/images/favicon/favicon.ico"> 
     <!-- CSS -->
     <link rel="stylesheet" href="/static/css/style.css" type="text/css">
-    <!-- FAVICON -->
-    <link rel="icon" type="image/png" sizes="32×32" href="assets/favicon.ico">
 </head>
 <body>
 
@@ -46,14 +46,17 @@
 <!-- Main content -->
 <div class="container">
 
+    {% block content %}
+    {% endblock %}
+    
 </div>
 
 <!-- Footer -->
 <footer class="w-100 p-1 fixed-bottom">
 <div class="footer-links text-center bottom-0">
     <p>Made by Martyna Nowak
-        <a href="https://github.com/mmnowak" target="_blank" aria-label="The Github page of the site creator (opens in a new tab)"><i class="fa-brands fa-github"></i></a> 
-        <a href="https://www.linkedin.com/in/martyna-nowak-025790246/" target="_blank" aria-label="The Github page of the site creator (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="ms-2" href="https://github.com/mmnowak" target="_blank" aria-label="The Github page of the site creator (opens in a new tab)"><i class="fa-brands fa-github"></i></a> 
+        <a class="ms-2" href="https://www.linkedin.com/in/martyna-nowak-025790246/" target="_blank" aria-label="The Github page of the site creator (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
     </p>
 </div>
 </footer>
